@@ -6,7 +6,7 @@ public class Main{
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        
+
         Circle c = new Circle();
         Triangle t = new Triangle();
         Square s = new Square();
@@ -15,7 +15,8 @@ public class Main{
 
         do{
             System.out.println("Bienvenido a la actividad 11");
-            System.out.println("Menu: (Seleccione un numero y despues otro) \n1. Circulo \n\t1. Area \n\t2. Perimetro \n2. Triangulo \n\t1. Area \n\t2. Perimetro \n3. Cuadrado \n\t1. Area \n\t2. Perimetro ");
+            System.out.println("Menu: (Seleccione un numero y despues otro) \n1. Circulo \n\t1. Area \n\t2. Perimetro " +
+                               "\n2. Triangulo \n\t1. Area \n\t2. Perimetro \n3. Cuadrado \n\t1. Area \n\t2. Perimetro ");
             System.out.print("primer filtro: ");
             a = teclado.nextInt();
             System.out.print("Segundo filtro: ");
